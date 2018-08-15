@@ -1,26 +1,26 @@
-# Bragi JavaScript Style Guide
+# Yara Digital Labs JavaScript Style Guide
 
 ## Usage
 
 We export two ESLint configurations for your usage, vanilla JavaScript and React.
 
-### bragi
+### Yara Digital Labs JavaScript Style Guide
 Our default export contains all of our ESLint rules, including ECMAScript 6+.
 It requires `eslint`, `eslint-config-react`, `eslint-plugin-react`, `eslint-plugin-jest`.
 
 1. Install package:
 
 ```
-npm install --save-dev bragi
+npm install --save-dev eslint-config-yara
 ```
 
-2. For vanilla JavaScript add `"extends": "bragi"` to your .eslintrc.
+2. For vanilla JavaScript add `"extends": "yara"` to your .eslintrc.
 
-3. For React add `"extends": "bragi/react"` to your .eslintrc.
+3. For React add `"extends": "yara/react"` to your .eslintrc.
 
-[To check our rules on vanilla JavaScript lint](https://github.com/yaradigitallabs/bragi/wiki/Eslint-rules).
+[To check our rules on vanilla JavaScript lint](https://github.com/yaradigitallabs/eslint-config-yara/wiki/Eslint-rules).
 
-[To check our rules on React lint](https://github.com/yaradigitallabs/bragi/wiki/React-eslint-rules).
+[To check our rules on React lint](https://github.com/yaradigitallabs/eslint-config-yara/wiki/React-eslint-rules).
 
 # Release process
 
