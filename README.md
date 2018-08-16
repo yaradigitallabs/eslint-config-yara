@@ -14,6 +14,12 @@ It requires `eslint`, `eslint-config-react`, `eslint-plugin-react`, `eslint-plug
 npm install --save-dev eslint-config-yara
 ```
 
+Alternatively you can use:
+
+```
+yarn add eslint-config-yara --dev
+```
+
 2. For vanilla JavaScript add `"extends": "yara"` to your .eslintrc.
 
 3. For React add `"extends": "yara/react"` to your .eslintrc.
