@@ -1,24 +1,23 @@
 {
-  "name": "bragi",
-  "version": "1.0.0",
-  "description": "Yara eslint",
+  "name": "eslint-config-yara",
+  "version": "2.0.0",
+  "description": "Yara Digital Labs JavaScript Style Guide",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postversion": "git push && git push --tags",
-    "version": "git add -A dist",
     "config": "npm config set progress=false && npm config set git-tag-version=true"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yaradigitallabs/bragi.git"
+    "url": "git+https://github.com/yaradigitallabs/eslint-config-yara.git"
   },
-  "author": "Yara",
+  "author": "Yara Digital Labs",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yaradigitallabs/bragi/issues"
+    "url": "https://github.com/yaradigitallabs/eslint-config-yara/issues"
   },
-  "homepage": "https://github.com/yaradigitallabs/bragi#readme",
+  "homepage": "https://github.com/yaradigitallabs/eslint-config-yara#readme",
   "devDependencies": {
     "eslint": "^5.3.0",
     "eslint-config-react": "^1.1.7",

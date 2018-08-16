@@ -34,7 +34,6 @@
 npm-debug.log
 testem.log
 /typings
-package-lock.json
 /.history
 /.idea
 
