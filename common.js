@@ -127,7 +127,7 @@ module.exports = {
       'error',
       'starred-block'
     ],
-    'new-cap': 'error',
+    'new-cap': 'warn',
     'new-parens': 'off',
     'newline-after-var': 'off',
     'newline-before-return': 'off',
