@@ -59,7 +59,7 @@ module.exports = {
     'react/no-unknown-property': 'error',
     'react/prefer-es6-class': ['error', 'always'],
     'react/prefer-stateless-function': ['error', { 'ignorePureComponents': true }],
-    'react/prop-types': ['error', {
+    'react/prop-types': ['warn', {
       'ignore': [],
       'customValidators': [],
       'skipUndeclared': false
