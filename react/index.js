@@ -7,6 +7,10 @@ module.exports = {
     }
   },
 
+  "env": {
+    "browser": true
+  },
+
   'extends': ['../index.js'],
 
   'rules': {
@@ -162,5 +166,22 @@ module.exports = {
     }],
     'react/no-this-in-sfc': 1,
     'react/jsx-props-no-multi-spaces': 1
+  },
+
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".json"]
+      }
+    },
+    "react": {
+      "pragma": "React",
+      "version": "16.0"
+    },
+    "propWrapperFunctions": [
+      "forbidExtraProps",
+      "exact",
+      "Object.freeze"
+    ]
   }
 }
