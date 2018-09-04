@@ -143,7 +143,10 @@ module.exports = {
       'off',
       'except-parens'
     ],
-    'no-confusing-arrow': 'warn',
+    'no-confusing-arrow': [
+      'warn',
+      { 'allowParens': true }
+    ],
     'no-continue': 'off',
     'no-console': 'warn',
     'no-const-assign': 'error',
